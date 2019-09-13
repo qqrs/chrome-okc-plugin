@@ -136,8 +136,8 @@ $(document).ready(() => {
   $('html').attr('id', 'okcp'); //an ID to use to override OkC's sad CSS specificity madness
   // .addClass("OKCP-bindings-not-yet-loaded"); //, and a class to hide everything until it is set up
 
-  var $matchPercentageTableParent = $('.profile2015-header > .inner');
-  var $questionDetailParent = $('.profile2015-content:eq(0)');
+  var $matchPercentageTableParent = $('.profile-userinfo');
+  var $questionDetailParent = $('.profile-content-main');
   $matchPercentageTableParent.append(
     '<table class="match-ratios-wrapper-outer"><tr><td class="match-ratios">' +
       '<ul class="match-ratios-list"></ul>' +
