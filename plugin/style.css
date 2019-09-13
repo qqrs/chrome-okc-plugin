@@ -62,10 +62,10 @@
 /* This is a table so we can vertical align to the bottom while scrolling when there are too many */
 .match-ratios-wrapper-outer {
   position: absolute;
-  max-height: 153px;
-  left: 50%;
-  margin-left: 500px;
-  bottom: 35px;
+  max-height: 400px;
+  top: 80px;
+  right: 0;
+  left: auto;
   overflow-y: scroll;
   width: 225px;
   z-index: 0;
@@ -74,9 +74,9 @@
 #okcp .match-ratios-list {
   box-shadow: none;
   padding: 0;
-  max-height: 160px;
+  max-height: 400px;
   overflow-y: scroll;
-  overflow-x: hidden;
+  overflow-x: scroll;
   border-bottom: 1px solid #BBB;
   border-top: 1px solid #BBB;
   width: 100%;
@@ -204,9 +204,9 @@
 /* UI - Question Detail */
 .question-detail {
   position: absolute;
-  top: 0;
+  top: 80px;
   left: auto;
-  right: -270px;
+  right: -300px;
   z-index: 110;
   padding: 0 8px 18px;
   max-width: 300px;
