@@ -18,7 +18,7 @@ _OKCP.getAnswers = function(answersToCompareCurrentProfileTo) {
 
   if (_OKCP.onOwnProfile) {
     //on own profile
-    log.info('on own profile');
+    console.log('on own profile');
     $('.spinner').hide();
     return false;
   }
