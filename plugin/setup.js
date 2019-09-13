@@ -131,7 +131,7 @@ if (_OKCP.profilePath === '') {
 })();
 
 //fix and augment UI, and add class to hide features until they're ready
-(function() {
+$(document).ready(() => {
   // Basic CSS Helpers
   $('html').attr('id', 'okcp'); //an ID to use to override OkC's sad CSS specificity madness
   // .addClass("OKCP-bindings-not-yet-loaded"); //, and a class to hide everything until it is set up
@@ -170,7 +170,7 @@ if (_OKCP.profilePath === '') {
       clearInterval(guiltBannerHiderTimer);
     }
   }, 1);
-})();
+});
 
 var stateAbbr = {
   Alaska: 'AK',
